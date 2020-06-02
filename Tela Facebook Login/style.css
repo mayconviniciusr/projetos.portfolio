@@ -1,0 +1,176 @@
+/** DIVS GERAIS**/
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;}
+.container 
+{max-width: 1100px;
+padding: 0px 2%;
+margin: 0px auto;}
+.clear {clear: both;}
+
+/**HEADER**/
+header 
+{background-color: #385898;
+padding: 10px 0px;}
+
+.logo 
+{float: left;
+color: white;
+margin: 0px auto;
+padding-top: 13px;}
+.logo h2 
+{font-size: 40px;
+font-weight: 600;
+}
+
+.form-login 
+{float: right;}
+
+.form-element 
+{display: inline-block;
+margin-right:  15px;
+margin-top: 5px;}
+.form-element p
+{color: white;
+font-size: 14px;}
+
+[type=email], [type=password] 
+{margin-top: 4px;
+border: 0px;
+height: 22px;
+padding-left: 3px;}
+[type=submit]:hover {background: #215ab2;}
+[type=submit] 
+{cursor: pointer;
+border: 0px;
+color: white;
+background: #365899;
+font-size: 12px;
+border: 1px solid #29487d;
+border-radius: 2px;
+padding: 3px 5px;
+display: inline-block;}
+
+/**SECTION MAIN**/
+.main 
+{background: linear-gradient(white, #D3D8E8);
+padding: 40px 0px;}
+
+.img-pessoas h2 
+{max-width: 400px;
+display: inline-block;
+color: #0e385f;
+font-size: 20px;
+font-weight: bold;
+line-height: 29px;
+margin-top: 15px;
+width: 450px;
+word-spacing: -1px;
+padding: 0px 5px;}
+.img-pessoas 
+{float: left;
+width: 60%;}
+.img-pessoas img {max-width: 100%;}
+
+.abrir-conta
+{width: 40%;
+float: right;}
+.abrir-conta h2
+{color: black;
+font-size: 35px;
+padding: 0px 5px;}
+.abrir-conta p
+{font-size: 20px;
+color: rgb(30, 30 ,30);
+margin-top: 8px;
+font-weight: normal;
+padding: 0px 5px;}
+
+.criar-conta {margin-top: 10px;}
+
+.w50 
+{padding: 0px 5px;
+float: left;
+width: 50%;}
+.w100
+{padding: 0px 5px;
+float: left;
+width: 100%;}
+
+.criar-conta input 
+{width: 100%;
+margin-top: 8px;}
+.criar-conta [type=password],
+.criar-conta [type=email],
+.criar-conta [type=text]
+{height: 44px;
+padding-left: 10px;
+border: 1px solid #a5dcff;
+border-radius: 8px;
+font-size: 20px;}
+.criar-conta p
+{color: #777;
+font-size: 11px;
+width: 316px}
+.criar-conta a
+{color: #385898;
+cursor: pointer;
+text-decoration: none}
+.criar-conta [type=submit]
+{height: 44px;
+background: linear-gradient(#67ae55, #578843);
+color: white;
+cursor: pointer;
+border: 0px;
+border-radius: 8px;
+max-width: 200px;
+font-size: 20px;
+margin-top: 8px;}
+
+form .w100 > h2
+{color: grey;
+font-size: 15px;
+font-weight: 600;
+margin-top: 10px;}
+
+.w100 .nascimento
+{float: left;
+margin-top: 5px;
+font-size: 13px;
+height: 30px;
+padding: 5px;
+background-color: #fff;
+color: #1c1e21;
+border: 1px solid #ccd0d5;}
+
+.input-radio 
+{float: left;
+margin: 8px 10px;}
+.input-radio h2 
+{display: inline-block;
+font-size: 15px;}
+.input-radio [type=radio] 
+{width: auto !important;
+display: inline-block;}
+
+/**SECTION LINGUAS**/
+.linguas
+{padding: 30px 0px;
+background: white;}
+.linguas a 
+{color: #365899;
+font-size: 14px;
+text-decoration: none;
+padding-left: 20px;}
+.linguas .container
+{padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 10px;
+border-bottom: 1px solid #cccccc;}
+.linguas .selected {color: #737373;}
+.linguas h6 
+{padding-left: 20px;
+padding-top: 8px;
+color: gray;}
